@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blur Image in One Click!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: palevioletred;
+            
+        }
+        h1{
+            color: white;
+            font-size: 35px;
+            text-decoration:dotted underline;
+            text-decoration-color: blanchedalmond ;
+
+        }
+        img {
+            width:500px;
+            height:500px;
+            border: 2px solid black;
+        
+
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 15px;
+            background-color: yellow;
+            border-radius: 10px;
+
+        }
+           
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>A Beautiful Picture on sitaRam Movie..</h1>
+    <br>
+    <img id ="img" src="Sita Ram.jpeg"  alt="Image with sitaRam movie"/>
+    <br><br>
+    
+    <h4> Blur the image click on blur?.  </h4>
+  <div button>
+    <button  onclick="img.style.filter='blur(4px)'">Blur Image</button>
+    <h4> See again Image click to unblur?.  </h4>    
+    <button onclick="img.style.filter='blur(0)' " >Unblur Image</button>
+  </div> 
+    
+
+    
+</body>
+</html>
